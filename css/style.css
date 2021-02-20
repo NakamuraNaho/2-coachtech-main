@@ -169,6 +169,7 @@ span:nth-of-type(3){
 /* main1 */
 .main1-wrap{
   background-image: url(../img/eyecatch.jpg);
+  position: relative;
 }
 
 .main1-wrap h2{
@@ -181,7 +182,9 @@ span:nth-of-type(3){
 .flex-container1{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
 
 }
 
